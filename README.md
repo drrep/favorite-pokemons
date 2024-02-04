@@ -1,6 +1,6 @@
 # Favorite pokemons
 A small webapp which shows some of my favorite pokemons and their attributes randomized.
-Built with FastApi server, asyncio, sqlite and serverside Jinja template rendering.
+Built with FastApi server, asyncio, sqlite and serverside Jinja template rendering. The app fetches the data from [Pokeapi](https://pokeapi.co/).
 
 ## Run in virtual env
 Used python version 3.10.5
