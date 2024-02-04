@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Random 3 of my favorite pokemons</title>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <h1>Random 3 of Daniel's favorite pokemons</h1>
+
+    <div class="row">
+        {% for pokemon in pokemons %}
+        <div class="column">
+            <div class="card">
+                <p><IMG src={{pokemon.sprite}}></p>
+                <h3>{{pokemon.name.capitalize()}}</h3>
+                <p>height: {{pokemon.height}}</p>
+                <p>weight: {{pokemon.weight}}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div> 
+</body>
+</html>
