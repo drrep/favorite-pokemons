@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  pokemon-app:
+    image: pokemon-app
+    build: .
+    container_name: pokemons
+    ports:
+      - 8000:8000

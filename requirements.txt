@@ -1,0 +1,10 @@
+pytest==7.1.2
+numpy==1.23.1
+jinja2==3.1.2
+fastapi==0.79.0
+uvicorn==0.18.2
+SQLAlchemy==1.4.40
+aiostream==0.4.4
+aiohttp==3.8.1
+aiosqlite==0.17.0
+databases==0.6.1
